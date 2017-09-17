@@ -8,3 +8,10 @@
 1. 自定义队列维护Toast的显示与隐藏;
 2. 使用反射方法调用Toast的show和hide方法.绕过MIUI 8 6.8.18以上的小米手机上的悬浮窗权限;
 3. 适配7.1系统;
+
+
+用法:
+
+`
+CompatToast.makeText(context,"A Toast",Toast.LENGTH_SHORT).show();
+`
